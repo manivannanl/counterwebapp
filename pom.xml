@@ -110,6 +110,15 @@
 					<path>/CounterWebApp</path>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat-maven-plugin</artifactId>
+				<configuration>
+					<url>http://localhost:7070/manager</url>
+					<server>TomcatServer</server>
+					<path>/CounterWebApp</path>
+				</configuration>
+			</plugin>
 
 		</plugins>
 
