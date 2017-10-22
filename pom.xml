@@ -114,4 +114,11 @@
 		</plugins>
 
 	</build>
+	<distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///F:/gitRepository/DevProject/CounterWebApp/target</url>
+       </repository>
+   </distributionManagement>
 </project>
