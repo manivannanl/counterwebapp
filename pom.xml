@@ -108,7 +108,7 @@
 				<version>2.2</version>
 				<configuration>
 					<url>http://localhost:7070/manager/text</url>
-					<server>TomcatServer2</server>
+					<server>TomcatServer</server>
 					<path>/CounterWebApp</path>
 				</configuration>
 			</plugin>	
